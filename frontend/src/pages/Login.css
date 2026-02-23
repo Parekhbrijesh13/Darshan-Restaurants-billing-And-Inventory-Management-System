@@ -1,0 +1,134 @@
+/* =========================
+   Premium Restaurant Login
+   Emerald Minimal Theme
+   ========================= */
+
+/* Page background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      135deg,
+      #059669,
+      #10b981 40%,
+      #84cc16
+  );
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Main wrapper */
+.login-content {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Header */
+.login-logo-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.login-logo {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: 1.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.login-subtitle {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-top: 0.4rem;
+}
+
+/* Card */
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  padding: 2.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.login-card:hover {
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.18);
+}
+
+/* Card title */
+.login-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #065f46;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+/* Options */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #475569;
+}
+
+.remember-me input {
+  accent-color: #059669;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #059669;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #047857;
+}
+
+/* Footer */
+.login-footer {
+  text-align: center;
+  margin-top: 1.8rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+}
